@@ -80,12 +80,6 @@ public class ConstraintMakerExtendable: ConstraintMakerRelatable {
         return self
     }
     
-    @available(*, deprecated, renamed:"lastBaseline")
-    public var baseline: ConstraintMakerExtendable {
-        self.description.attributes += .lastBaseline
-        return self
-    }
-    
     public var lastBaseline: ConstraintMakerExtendable {
         self.description.attributes += .lastBaseline
         return self
