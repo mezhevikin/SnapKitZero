@@ -69,31 +69,22 @@ internal struct ConstraintAttributes : OptionSet, ExpressibleByIntegerLiteral {
     internal static let centerY: ConstraintAttributes = ConstraintAttributes(UInt(1) << 9)
     internal static let lastBaseline: ConstraintAttributes = ConstraintAttributes(UInt(1) << 10)
     
-    @available(iOS 8.0, OSX 10.11, *)
     internal static let firstBaseline: ConstraintAttributes = ConstraintAttributes(UInt(1) << 11)
 
-    @available(iOS 8.0, *)
     internal static let leftMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 12)
 
-    @available(iOS 8.0, *)
     internal static let rightMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 13)
 
-    @available(iOS 8.0, *)
     internal static let topMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 14)
 
-    @available(iOS 8.0, *)
     internal static let bottomMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 15)
 
-    @available(iOS 8.0, *)
     internal static let leadingMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 16)
 
-    @available(iOS 8.0, *)
     internal static let trailingMargin: ConstraintAttributes = ConstraintAttributes(UInt(1) << 17)
 
-    @available(iOS 8.0, *)
     internal static let centerXWithinMargins: ConstraintAttributes = ConstraintAttributes(UInt(1) << 18)
 
-    @available(iOS 8.0, *)
     internal static let centerYWithinMargins: ConstraintAttributes = ConstraintAttributes(UInt(1) << 19)
     
     // aggregates
@@ -107,13 +98,10 @@ internal struct ConstraintAttributes : OptionSet, ExpressibleByIntegerLiteral {
     internal static let size: ConstraintAttributes = [.width, .height]
     internal static let center: ConstraintAttributes = [.centerX, .centerY]
 
-    @available(iOS 8.0, *)
     internal static let margins: ConstraintAttributes = [.leftMargin, .topMargin, .rightMargin, .bottomMargin]
 
-    @available(iOS 8.0, *)
     internal static let directionalMargins: ConstraintAttributes = [.leadingMargin, .topMargin, .trailingMargin, .bottomMargin]
 
-    @available(iOS 8.0, *)
     internal static let centerWithinMargins: ConstraintAttributes = [.centerXWithinMargins, .centerYWithinMargins]
     
     internal var layoutAttributes:[LayoutAttribute] {

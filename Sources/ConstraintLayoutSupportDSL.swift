@@ -28,7 +28,6 @@
 #endif
 
 
-@available(iOS 8.0, *)
 public struct ConstraintLayoutSupportDSL: ConstraintDSL {
     
     public var target: AnyObject? {

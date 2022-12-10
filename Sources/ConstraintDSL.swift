@@ -135,57 +135,46 @@ extension ConstraintAttributesDSL {
     
     // MARK: Margins
     
-    @available(iOS 8.0, *)
     public var leftMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.leftMargin)
     }
     
-    @available(iOS 8.0, *)
     public var topMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.topMargin)
     }
     
-    @available(iOS 8.0, *)
     public var rightMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.rightMargin)
     }
     
-    @available(iOS 8.0, *)
     public var bottomMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.bottomMargin)
     }
     
-    @available(iOS 8.0, *)
     public var leadingMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.leadingMargin)
     }
     
-    @available(iOS 8.0, *)
     public var trailingMargin: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.trailingMargin)
     }
     
-    @available(iOS 8.0, *)
     public var centerXWithinMargins: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.centerXWithinMargins)
     }
     
-    @available(iOS 8.0, *)
     public var centerYWithinMargins: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.centerYWithinMargins)
     }
     
-    @available(iOS 8.0, *)
     public var margins: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.margins)
     }
     
-    @available(iOS 8.0, *)
     public var directionalMargins: ConstraintItem {
       return ConstraintItem(target: self.target, attributes: ConstraintAttributes.directionalMargins)
     }
 
-    @available(iOS 8.0, *)
     public var centerWithinMargins: ConstraintItem {
         return ConstraintItem(target: self.target, attributes: ConstraintAttributes.centerWithinMargins)
     }

@@ -85,55 +85,46 @@ public class ConstraintMakerExtendable: ConstraintMakerRelatable {
         return self
     }
     
-    @available(iOS 8.0, OSX 10.11, *)
     public var firstBaseline: ConstraintMakerExtendable {
         self.description.attributes += .firstBaseline
         return self
     }
     
-    @available(iOS 8.0, *)
     public var leftMargin: ConstraintMakerExtendable {
         self.description.attributes += .leftMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var rightMargin: ConstraintMakerExtendable {
         self.description.attributes += .rightMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var topMargin: ConstraintMakerExtendable {
         self.description.attributes += .topMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var bottomMargin: ConstraintMakerExtendable {
         self.description.attributes += .bottomMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var leadingMargin: ConstraintMakerExtendable {
         self.description.attributes += .leadingMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var trailingMargin: ConstraintMakerExtendable {
         self.description.attributes += .trailingMargin
         return self
     }
     
-    @available(iOS 8.0, *)
     public var centerXWithinMargins: ConstraintMakerExtendable {
         self.description.attributes += .centerXWithinMargins
         return self
     }
     
-    @available(iOS 8.0, *)
     public var centerYWithinMargins: ConstraintMakerExtendable {
         self.description.attributes += .centerYWithinMargins
         return self
@@ -168,19 +159,16 @@ public class ConstraintMakerExtendable: ConstraintMakerRelatable {
         return self
     }
     
-    @available(iOS 8.0, *)
     public var margins: ConstraintMakerExtendable {
         self.description.attributes += .margins
         return self
     }
     
-    @available(iOS 8.0, *)
     public var directionalMargins: ConstraintMakerExtendable {
       self.description.attributes += .directionalMargins
       return self
     }
 
-    @available(iOS 8.0, *)
     public var centerWithinMargins: ConstraintMakerExtendable {
         self.description.attributes += .centerWithinMargins
         return self

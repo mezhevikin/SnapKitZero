@@ -454,7 +454,6 @@ class SnapKitTests: XCTestCase {
     }
     
     #if os(iOS) || os(tvOS)
-    @available(iOS 11.0, tvOS 11.0, *)
     func testConstraintDirectionalInsetsAsImpliedEqualToConstraints() {
         let view = View()
         self.container.addSubview(view)
@@ -482,7 +481,6 @@ class SnapKitTests: XCTestCase {
     #endif
 
     #if os(iOS) || os(tvOS)
-    @available(iOS 11.0, tvOS 11.0, *)
     func testConstraintDirectionalInsetsAsConstraintsConstant() {
         let view = View()
         self.container.addSubview(view)
@@ -510,7 +508,6 @@ class SnapKitTests: XCTestCase {
     #endif
 
     #if os(iOS) || os(tvOS)
-    @available(iOS 11.0, tvOS 11.0, *)
     func testConstraintDirectionalInsetsFallBackForNonDirectionalConstraints() {
         let view = View()
         self.container.addSubview(view)

@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.7
 //
 //  SnapKit
 //
@@ -28,9 +28,9 @@ import PackageDescription
 let package = Package(
     name: "SnapKit",
     platforms: [
-        .iOS(.v10),
-        .macOS(.v10_11),
-        .tvOS(.v10)
+        .iOS(.v11),
+        .macOS(.v10_13),
+        .tvOS(.v11)
     ],
     products: [
         .library(name: "SnapKit", targets: ["SnapKit"]),
